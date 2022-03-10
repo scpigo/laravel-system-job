@@ -1,6 +1,6 @@
 {
     "name": "scpigo/laravel-system-job",
-    "description": "This package will manage system jobs in your application",
+    "description": "This package will manage system jobs in your Laravel application",
     "type": "library",
     "require": {
         "php": "^7.3|^8.0",
