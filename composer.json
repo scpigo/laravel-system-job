@@ -1,0 +1,22 @@
+{
+    "name": "scpigo/laravel-system-job",
+    "description": "This package will manage system jobs in your application",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0",
+        "jenssegers/mongodb": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scpigo\\SystemJob\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maksim Rastorguev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
