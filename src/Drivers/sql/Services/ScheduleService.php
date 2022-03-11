@@ -1,6 +1,6 @@
 <?php
 
-namespace Scpigo\SystemJob\Drivers\sql\Services;
+namespace Scpigo\SystemJob\Drivers\Sql\Services;
 
 use Scpigo\SystemJob\Helpers\SystemJobStatus;
 use Scpigo\SystemJob\Services\Interfaces\ScheduleInterface;

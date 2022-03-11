@@ -4,6 +4,6 @@ namespace Scpigo\SystemJob\Components\Interfaces;
 
 use Scpigo\SystemJob\Dto\SystemJobSchedulerDto;
 
-interface SchedulerInterface {
+interface SystemJobSchedulerInterface {
     public function schedule(SystemJobSchedulerDto $dto);
 }

@@ -6,6 +6,5 @@ use Scpigo\SystemJob\Requests\SystemJobRequest;
 
 interface SystemJobRepositoryInterface
 {
-    public function findModelsByFilter(SystemJobRequest $request);
-    public function findIds(SystemJobRequest $request);
+    public function findScheduledJobs(): object;
 }

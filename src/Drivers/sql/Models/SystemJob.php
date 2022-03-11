@@ -1,6 +1,6 @@
 <?php
 
-namespace Scpigo\SystemJob\Drivers\sql\Models;
+namespace Scpigo\SystemJob\Drivers\Sql\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

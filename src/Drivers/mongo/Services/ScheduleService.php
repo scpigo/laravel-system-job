@@ -1,6 +1,6 @@
 <?php
 
-namespace Scpigo\SystemJob\Drivers\mongo\Services;
+namespace Scpigo\SystemJob\Drivers\Mongo\Services;
 
 use Scpigo\SystemJob\Helpers\SystemJobStatus;
 use Scpigo\SystemJob\Services\Interfaces\ScheduleInterface;

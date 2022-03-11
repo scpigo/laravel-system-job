@@ -1,6 +1,6 @@
 <?php
 
-namespace Scpigo\SystemJob\Helpers\Facades;
+namespace Scpigo\SystemJob\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

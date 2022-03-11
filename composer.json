@@ -3,7 +3,9 @@
     "description": "This package will manage system jobs in your Laravel application",
     "type": "library",
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^7.3|^8.0"
+    },
+    "require-dev": {
         "laravel/framework": "^8.0",
         "jenssegers/mongodb": "^3.8"
     },

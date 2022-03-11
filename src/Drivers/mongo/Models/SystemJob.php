@@ -1,6 +1,6 @@
 <?php
 
-namespace Scpigo\SystemJob\Drivers\mongo\Models;
+namespace Scpigo\SystemJob\Drivers\Mongo\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Jenssegers\Mongodb\Eloquent\Model;
@@ -20,6 +20,10 @@ class SystemJob extends Model
         'action_params',
         'scheduled_at',
         'status'
+    ];
+
+    protected $dates = [
+        'scheduled_at'
     ];
 
     public function scopeAction($query, $action) {
